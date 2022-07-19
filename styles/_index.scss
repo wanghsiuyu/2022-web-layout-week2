@@ -1,0 +1,75 @@
+// header
+.header {
+  background-image: url(../img/banner.png);
+  height: 958px;
+  background-size: cover;
+  background-position: center center;
+  border: 1px solid #707070;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: white;
+}
+.name {
+  font-size: 80px;
+  font-weight: 900;
+  line-height: 106px;
+}
+.socialList {
+  display: flex;
+  justify-content: center;
+  gap: 16px;
+}
+
+// about
+.aboutBorder {
+  display: inline-block;
+  width: 384px;
+  border-bottom: 1px solid black;
+}
+.aboutPoint::before {
+  display: inline-block;
+  content: '';
+  width: 22px;
+  height: 22px;
+  border-radius: 50%;
+  background-color: #891818;
+  margin-right: 16px;
+}
+
+// My brand
+.brand {
+  background-color: black;
+  color: white;
+  padding: 56px 0 160px;
+}
+.brandList {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+// Other Works
+.works {
+  padding: 56px 0 144px;
+}
+.worksList {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 48px 24px;
+  font-size: 20px;
+  line-height: 42px;
+}
+
+// Contact
+.contact {
+  background-color: black;
+  color: white;
+}
+.contactLink {
+  color: white;
+  &:hover {
+    text-decoration: underline;
+  }
+}
