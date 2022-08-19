@@ -247,6 +247,7 @@ body {
 
 .header {
   background-image: url(../img/banner.png);
+  background-attachment: fixed;
   height: 958px;
   background-size: cover;
   background-position: center center;
